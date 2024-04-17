@@ -17,11 +17,11 @@ app.set('view engine', 'ejs');
 // middlewares
 app.use(morgan('dev'));
 app.use(myConnection(mysql, {
-  host: 'sql.freedb.tech',
-  user: 'freedb_shms19334',
-  password: 'H$!8ES2#@ny@hKd',
+  host: 'db5007094691.hosting-data.io',
+  user: 'dbu2427698',
+  password: 'iestdev0!',
   port: 3306,
-  database: 'freedb_sandramar05'}, 'single'));
+  database: 'freedb_karimeruiz'}, 'single'));
 app.use(express.urlencoded({extended: false}));
 
 // routes
